@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/moring"
+    tools:context="haust.drcomandroidhaust.drcom.MainActivity">
+
+    <TextView
+        android:id = "@+id/goodday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/gotham"
+        android:text="Good Day"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goodday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/calibri"
+        android:gravity="center"
+        android:text="this app is just for HAUST"
+        android:textColor="#9affffff"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="302dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ID"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="244dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:paddingTop="12dp"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="57dp"
+        android:fontFamily="@font/calibri"
+        android:background="@null"
+        android:gravity="center"
+        android:text="Longin"
+        android:textAllCaps="false"
+        android:textColor="#96ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>
