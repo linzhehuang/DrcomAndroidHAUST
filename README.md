@@ -1,6 +1,6 @@
 # Drcom Android version for HAUST
 
-该项目基于 [Gdufe-Drcom-Android](https://github.com/wintercoder/Gdufe-Drcom-AndroidGdufe-Drcom-Android) 适配了河科大。
+该项目基于 [Gdufe-Drcom-Android](https://github.com/wintercoder/Gdufe-Drcom-Android) 适配了河科大。
 简单做了一些精简删除了lougout的功能，ui来自项目[LoginUI-Android](https://github.com/Shashank02051997/LoginUI-Android)
 
 ## 细节
@@ -13,3 +13,4 @@
 
 ##  License
 [jlu-drcom-java](https://github.com/drcoms/jlu-drcom-client/tree/master/jlu-drcom-java) AGPL
+[Gdufe-Drcom-Android](https://github.com/wintercoder/Gdufe-Drcom-Android) AGPL
